@@ -1,22 +1,29 @@
 class Atleta {
 
     private String nome;
-    private int idade; 
+    private int idade;
 
-    public void setNome(String n){
-      this.nome = n;
-    }
-    public void setIdade(int i){
-      idade = i;
+    public void setNome(String n) {
+      nome = n;
     }
 
-    public String getNome(){
+    public void setIdade(int n) {
+      idade = n;
+    }
+
+    public String getNome() {
       return nome;
     }
 
-    public int getIdade(){
-      return idade;
+    public int getIdade() {
+      return idade;  //simulando retorno com erro
     }
+
+
+
+
+
+
 
 
 }
